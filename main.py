@@ -78,7 +78,7 @@ print(f"Find between: {datetime.datetime(2025, 1, 15)} and {datetime.datetime(20
 found_items = hub.find_by_date(datetime.datetime(2025, 1, 15), datetime.datetime(2025, 1, 30))
 print([item for item in found_items])
 
-print("Show 2 most valuable")
+print("Show 2 most valuables")
 most_valuable_items = hub.find_most_valuable(2)
 print([item for item in most_valuable_items])
 
