@@ -64,7 +64,7 @@ class Item:
     def __repr__ (self):
         return f"[{self.id}] {self.name} {*self._tags,} dispatch by {self.dispatch_time.strftime('%H:%M:%S %m/%d/%Y')}"
 
-    cost = property(get_cost, set_cost)
+    cost = property(get_cost, set_cost) # todo перенести в @property
 
 class Hub:
     _hub_instance: "Hub" = None
