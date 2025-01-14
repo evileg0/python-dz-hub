@@ -25,7 +25,7 @@ add_tag(hub[0], "Fragile")
 hub[1].add_tag('Fragile')
 hub[1].add_tag('Radiactive')
 hub[2].add_tag('18+')
-hub[1].rm_tag('ww')
+hub[1].rm_tag('www')
 hub[1].cost = 1
 
 # вывод итемов хаба итератором + длина + repr для итема
